@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "unlerp",
+	"version": "${version}",
+	"name": "Unlerp",
+	"description": "Mess around with the game's lerp() method!",
+	"authors": [
+		"Tektonikal"
+	],
+	"contact": {
+		"issues": "https://discord.gg/hbcZD7meKw"
+	},
+	"license": "LGPL-3.0",
+	"icon": "assets/unlerp/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"tektonikal.unlerp.Unlerp"
+		]
+	},
+	"mixins": [
+		"unlerp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": "*",
+		"fabric-api": "*",
+		"midnightlib": "*"
+	}
+}
